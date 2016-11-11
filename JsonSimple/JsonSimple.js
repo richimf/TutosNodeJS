@@ -11,3 +11,11 @@ http.createServer(function(req,res){
   });
 }).listen(8080);
 
+//USAR EL COMANDO   curl -I localhost:8080   para verificar que todo este OK
+//se recibira una respuesta asi:
+/*
+	HTTP/1.1 200 OK
+	Content-Type: application/json
+	Date: Fri, 11 Nov 2016 19:01:22 GMT
+	Connection: keep-alive
+*/
